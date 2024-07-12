@@ -1,4 +1,16 @@
-<?php require_once 'app/views/templates/headerPublic.php'; ?>
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+if (isset($_SESSION['user_id'])) {
+    require_once 'app/views/templates/header.php'; // Private header
+} else {
+    require_once 'app/views/templates/headerPublic.php'; // Public header
+}
+
+error_log('Session user_id: ' . (isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 'not set'));
+?>
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-4">
@@ -27,23 +39,31 @@
                         <?php endif; ?>
                     </span><br>
                 <?php endforeach; ?>
+
+                <?php if (isset($ratingData)): ?>
+                    <p><strong>Average User Rating:</strong> <?php echo round($ratingData['average_rating'], 1); ?>/5 (<?php echo $ratingData['total_ratings']; ?> ratings)</p>
+                <?php endif; ?>
             </div>
             <div class="mt-4">
                 <h2>Rate This Movie</h2>
-                <form method="POST" action="/movie/rate">
-                    <div class="form-group">
-                        <input type="hidden" name="title" value="<?php echo htmlspecialchars($movie['Title']); ?>">
-                        <label for="rating">Your Rating (1-5):</label>
-                        <select class="form-control" id="rating" name="rating">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit Rating</button>
-                </form>
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <form method="POST" action="/movie/rate">
+                        <div class="form-group">
+                            <input type="hidden" name="title" value="<?php echo htmlspecialchars($movie['Title']); ?>">
+                            <label for="rating">Your Rating (1-5):</label>
+                            <select class="form-control" id="rating" name="rating">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Rating</button>
+                    </form>
+                <?php else: ?>
+                    <p>Please <a href="/login?returnUrl=<?php echo urlencode('/movie/search?movie=' . htmlspecialchars($movie['Title'])); ?>">log in</a> to rate this movie.</p>
+                <?php endif; ?>
             </div>
             <div class="mt-4">
                 <h2>AI-Generated Review</h2>
@@ -61,12 +81,11 @@
                 $actors = explode(', ', $movie['Actors']);
                 foreach ($actors as $actor): ?>
                     <div class="col-md-2 text-center">
-                        <img src="path_to_actor_images/<?php echo htmlspecialchars($actor); ?>.jpg" class="img-fluid" alt="<?php echo htmlspecialchars($actor); ?>">
+                        <img src="/path_to_actor_images/<?php echo htmlspecialchars($actor); ?>.jpg" class="img-fluid" alt="<?php echo htmlspecialchars($actor); ?>">
                         <p class="cast-name"><?php echo htmlspecialchars($actor); ?></p>
                     </div>
             <?php endforeach; ?>
         </div>
     </div>
 </div>
-</body>
-</html>
+<?php require_once 'app/views/templates/footer.php'; ?>

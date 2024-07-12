@@ -2,44 +2,33 @@
 
 class Login extends Controller
 {
-		//To render login view
 		public function index()
 		{
-				$this->view('login/index');
+				$returnUrl = isset($_GET['returnUrl']) ? $_GET['returnUrl'] : '/';
+				$this->view('login/index', ['returnUrl' => $returnUrl]);
 		}
 
-		//This functuion is to verify the user's credentials
-		public function verify()
-		{
-				//Retrieve username and password from the POST request
+		public function verify(){
+				// session_start(); //declared in init.php
+
 				$username = $_POST['username'];
 				$password = $_POST['password'];
+				$returnUrl = isset($_POST['returnUrl']) ? $_POST['returnUrl'] : '/';
 
-				// Load the User model and call the authenticate method
 				$userModel = $this->model('User');
-				$userModel->authenticate($username, $password);
+				$userAuthenticated = $userModel->authenticate($username, $password);
 
-				//Check if the user is currently locked out because of too many failed attempts
-				if (isset($_SESSION['lockout_time']) && time() < $_SESSION['lockout_time']) {
-						// Calculate the remaining lockout time
-						$remaining_time = $_SESSION['lockout_time'] - time();
-						//Set an error message and redirect to the login page after the remaining lockout time
-						$_SESSION['error'] = "Too many failed attempts. Please try again after " . $remaining_time . " seconds.";
-						header('Location: /login');
+				if ($userAuthenticated) {
+						$_SESSION['user_id'] = $userAuthenticated['id']; // Set user_id from authenticated user data
+						error_log('Debugging message: User logged in with ID ' . $_SESSION['user_id']);
+						error_log('Debugging message: Session ID ' . session_id());
+						header('Location: ' . $returnUrl);
+						exit();
+				} else {
+						$_SESSION['error'] = "Invalid credentials.";
+						error_log('Debugging message: Authentication failed for username ' . $username);
+						header('Location: /login?returnUrl=' . urlencode($returnUrl));
 						exit();
 				}
 		}
-
-		//This function is to create new user
-		public function create()
-		{
-				$username = $_POST['username'];
-				$email = $_POST['email'];
-				$password = $_POST['password'];
-
-				//Load the User model and call the create_user method
-				$userModel = $this->model('User');
-				$userModel->create_user($username, $email, $password);
-		}
 }
-?>

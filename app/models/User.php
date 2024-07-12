@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 
 class User
 {
@@ -29,8 +29,7 @@ class User
         if (isset($_SESSION['lockout_time']) && time() < $_SESSION['lockout_time']) {
             $remaining_time = $_SESSION['lockout_time'] - time();
             $_SESSION['error'] = "Too many failed attempts. Please try again after " . $remaining_time . " seconds.";
-            header('Location: /login');
-            exit();
+            return false;
         }
 
         $statement = $db->prepare("SELECT * FROM users WHERE username = :name;");
@@ -46,8 +45,7 @@ class User
             unset($_SESSION['failedAuth']);
             unset($_SESSION['lockout_time']);
             $this->log_attempt($username, 'good');
-            header('Location: /home');
-            exit();
+            return $rows; // Return user data instead of true
         } else {
             // Failed login
             $this->log_attempt($username, 'bad');
@@ -65,8 +63,7 @@ class User
             } else {
                 $_SESSION['error'] = "Invalid username or password.";
             }
-            header('Location: /login');
-            exit();
+            return false;
         }
     }
 

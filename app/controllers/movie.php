@@ -15,7 +15,7 @@ class Movie extends Controller {
     }
 
     public function search() {
-        //echo '<pre>Search method called</pre>'; // Debug line
+
         if (!isset($_REQUEST['movie'])) {
             header('Location: /movie');
             exit;
@@ -25,10 +25,8 @@ class Movie extends Controller {
         $movie_title = $_REQUEST['movie'];
         try {
             $movie = $api->fetchMovieData($movie_title);
-            //echo '<pre>'; print_r($movie); echo '</pre>'; // Debug line
             $this->view('movie/results', ['movie' => $movie]);
         } catch (Exception $e) {
-            //echo '<pre>'; print_r($e->getMessage()); echo '</pre>'; // Debug line
             $this->view('movie/results', ['error' => $e->getMessage()]);
         }
     }
