@@ -12,6 +12,7 @@ class Api {
         ];
     }
 
+    //fetch movie data from OMDB API
     public function fetchMovieData($title, $source = 'omdb') {
         if (!isset($this->baseUrls[$source])) {
             throw new Exception("API source not supported");
@@ -29,6 +30,19 @@ class Api {
         }
 
         return (array) $phpObj;
+    }
+
+    //fetche multiple movie data from OMDB API
+    public function fetchMultipleMovies($titles, $source = 'omdb') {
+        $movies = [];
+        foreach ($titles as $title) {
+            try {
+                $movies[] = $this->fetchMovieData($title, $source);
+            } catch (Exception $e) {
+                continue;
+            }
+        }
+        return $movies;
     }
 
 }
