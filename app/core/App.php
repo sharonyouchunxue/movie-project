@@ -13,6 +13,7 @@ class App {
         }
 
         $url = $this->parseUrl();
+        //echo '<pre>'; print_r($url); echo '</pre>'; // Debug line
 
         if (isset($url[1]) && file_exists('app/controllers/' . $url[1] . '.php')) {
             $this->controller = $url[1];
@@ -47,7 +48,7 @@ class App {
     }
 
     public function parseUrl() {
-        $u = "{$_SERVER['REQUEST_URI']}";
+        $u = strtok($_SERVER['REQUEST_URI'], '?');
         $url = explode('/', filter_var(rtrim($u, '/'), FILTER_SANITIZE_URL));
         unset($url[0]);
         return $url;
