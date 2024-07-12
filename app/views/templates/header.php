@@ -1,3 +1,8 @@
+<?php
+// if (session_status() == PHP_SESSION_NONE) {
+//     session_start();
+// }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,15 +27,24 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/profile">Profile</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/settings">Settings</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
-            </li>
+            <?php if (isset($_SESSION['user_id'])): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/settings">Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">Logout</a>
+                </li>
+            <?php else: ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/create">Sign Up</a>
+                </li>
+            <?php endif; ?>
         </ul>
     </div>
 </nav>
