@@ -25,7 +25,7 @@ class Login extends Controller
 						$_SESSION['user_id'] = $userAuthenticated['id'];
 						$_SESSION['username'] = $userAuthenticated['username'];
 						error_log('User logged in: ' . $_SESSION['user_id']); // Debugging line
-						header('Location: ' . $returnUrl);
+						header('Location: ' . $returnUrl);  // Redirect to the provided return URL or home page
 						exit();
 				} else {
 						$_SESSION['error'] = "Invalid credentials.";

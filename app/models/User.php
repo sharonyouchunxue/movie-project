@@ -20,8 +20,7 @@ class User
         return $rows;
     }
 
-    public function authenticate($username, $password)
-    {
+    public function authenticate($username, $password) {
         $username = strtolower($username);
         $db = db_connect();
 
