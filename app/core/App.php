@@ -2,18 +2,14 @@
 
 class App {
 
-    protected $controller = 'login';
+    protected $controller = 'main';
     protected $method = 'index';
     protected $special_url = ['apply'];
     protected $params = [];
 
     public function __construct() {
-        if (isset($_SESSION['auth']) == 1) {
-            $this->controller = 'home';
-        }
-
+        session_start(); // Make sure session is started
         $url = $this->parseUrl();
-        //echo '<pre>'; print_r($url); echo '</pre>'; // Debug line
 
         if (isset($url[1]) && file_exists('app/controllers/' . $url[1] . '.php')) {
             $this->controller = $url[1];
@@ -27,7 +23,7 @@ class App {
             require_once 'app/views/' . $url[1] . '.php';
             exit;
         } else {
-            header('Location: /home');
+            header('Location: /main');
             die;
         }
 
