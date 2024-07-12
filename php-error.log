@@ -128,3 +128,240 @@
 [12-Jul-2024 20:11:06 UTC] Debugging message: Session ID f00544c7d6a1b000f14c1e37073ef7c5
 [12-Jul-2024 20:11:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
 [12-Jul-2024 20:11:06 UTC] Session user_id: 5
+[12-Jul-2024 20:35:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:35:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:12 UTC] Session user_id: 5
+[12-Jul-2024 20:36:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:36:21 UTC] Session user_id: 5
+[12-Jul-2024 20:40:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:30 UTC] Session user_id: not set
+[12-Jul-2024 20:40:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:42 UTC] Debugging message: User logged in with ID 5
+[12-Jul-2024 20:40:42 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 20:40:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:42 UTC] Session user_id: 5
+[12-Jul-2024 20:40:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:40:53 UTC] Session user_id: 5
+[12-Jul-2024 20:43:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:43:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:43:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:43:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:43:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:43:54 UTC] Session user_id: 5
+[12-Jul-2024 20:44:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:44:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:44:01 UTC] Session user_id: 5
+[12-Jul-2024 20:45:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:52 UTC] Session user_id: 5
+[12-Jul-2024 20:45:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:45:59 UTC] Session user_id: 5
+[12-Jul-2024 20:51:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:37 UTC] Session user_id: 5
+[12-Jul-2024 20:51:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:51:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 20:51:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:05 UTC] Debugging message: Authentication failed for username huskydog
+[12-Jul-2024 20:52:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:13 UTC] Debugging message: User logged in with ID 9
+[12-Jul-2024 20:52:13 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 20:52:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:20 UTC] Session user_id: 9
+[12-Jul-2024 20:52:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:52:31 UTC] Session user_id: 9
+[12-Jul-2024 20:53:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 20:53:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:19 UTC] Debugging message: User logged in with ID 9
+[12-Jul-2024 20:53:19 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 20:53:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:27 UTC] Session user_id: 9
+[12-Jul-2024 20:53:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:56 UTC] Debugging message: User logged in with ID 5
+[12-Jul-2024 20:53:56 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 20:53:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:53:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:09 UTC] Session user_id: 5
+[12-Jul-2024 20:54:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 20:54:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:54:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:39 UTC] PHP Warning:  require_once(app/views/templates.headerPublic.php): Failed to open stream: No such file or directory in /home/runner/movie-project/app/views/movie/results.php on line 10
+[12-Jul-2024 20:59:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'app/views/templates.headerPublic.php' (include_path='.:/nix/store/nkirvcfs7fcasg5p6z1aaylcl3pska44-php-8.2.19/lib/php') in /home/runner/movie-project/app/views/movie/results.php:10
+Stack trace:
+#0 /home/runner/movie-project/app/core/Controller.php(12): require_once()
+#1 /home/runner/movie-project/app/controllers/movie.php(28): Controller->view('movie/results', Array)
+#2 /home/runner/movie-project/app/core/App.php(43): Movie->search()
+#3 /home/runner/movie-project/index.php(9): App->__construct()
+#4 {main}
+  thrown in /home/runner/movie-project/app/views/movie/results.php on line 10
+[12-Jul-2024 20:59:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 20:59:49 UTC] PHP Warning:  require_once(app/views/templates.headerPublic.php): Failed to open stream: No such file or directory in /home/runner/movie-project/app/views/movie/results.php on line 10
+[12-Jul-2024 20:59:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'app/views/templates.headerPublic.php' (include_path='.:/nix/store/nkirvcfs7fcasg5p6z1aaylcl3pska44-php-8.2.19/lib/php') in /home/runner/movie-project/app/views/movie/results.php:10
+Stack trace:
+#0 /home/runner/movie-project/app/core/Controller.php(12): require_once()
+#1 /home/runner/movie-project/app/controllers/movie.php(28): Controller->view('movie/results', Array)
+#2 /home/runner/movie-project/app/core/App.php(43): Movie->search()
+#3 /home/runner/movie-project/index.php(9): App->__construct()
+#4 {main}
+  thrown in /home/runner/movie-project/app/views/movie/results.php on line 10
+[12-Jul-2024 21:02:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:02:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:02:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:02:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:02:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:02:31 UTC] Session user_id: not set
+[12-Jul-2024 21:03:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:20 UTC] Debugging message: User logged in with ID 9
+[12-Jul-2024 21:03:20 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 21:03:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:20 UTC] Session user_id: 9
+[12-Jul-2024 21:03:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 21:03:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:48 UTC] Session user_id: not set
+[12-Jul-2024 21:03:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:03:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:04:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:04:06 UTC] Debugging message: User logged in with ID 5
+[12-Jul-2024 21:04:06 UTC] Debugging message: Session ID 630ac023535c0b36b44cd0eaa72aa0df
+[12-Jul-2024 21:04:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:04:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:06:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:06:01 UTC] Session user_id: 5
+[12-Jul-2024 21:10:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 21:10:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:10:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:24 UTC] User logged in: 9
+[12-Jul-2024 21:11:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:32 UTC] Session user_id: 9
+[12-Jul-2024 21:11:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 21:11:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:11:49 UTC] Session user_id: not set
+[12-Jul-2024 21:14:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:42 UTC] Session user_id: not set
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Poster" in /home/runner/movie-project/app/views/movie/results.php on line 35
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 35
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 38
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Director" in /home/runner/movie-project/app/views/movie/results.php on line 39
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 39
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Year" in /home/runner/movie-project/app/views/movie/results.php on line 40
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 40
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Runtime" in /home/runner/movie-project/app/views/movie/results.php on line 41
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 41
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Rated" in /home/runner/movie-project/app/views/movie/results.php on line 42
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 42
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Genre" in /home/runner/movie-project/app/views/movie/results.php on line 43
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 43
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Plot" in /home/runner/movie-project/app/views/movie/results.php on line 44
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 44
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Ratings" in /home/runner/movie-project/app/views/movie/results.php on line 47
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/runner/movie-project/app/views/movie/results.php on line 47
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 89
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 95
+[12-Jul-2024 21:14:42 UTC] PHP Warning:  Undefined array key "Actors" in /home/runner/movie-project/app/views/movie/results.php on line 105
+[12-Jul-2024 21:14:42 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/runner/movie-project/app/views/movie/results.php on line 105
+[12-Jul-2024 21:14:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:14:46 UTC] Session user_id: not set
+[12-Jul-2024 21:14:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:04 UTC] User logged in: 5
+[12-Jul-2024 21:15:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:04 UTC] Session user_id: 5
+[12-Jul-2024 21:15:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/controllers/logout.php on line 6
+[12-Jul-2024 21:15:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:28 UTC] User logged in: 9
+[12-Jul-2024 21:15:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:15:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 11
+[12-Jul-2024 21:16:16 UTC] Session user_id: 9

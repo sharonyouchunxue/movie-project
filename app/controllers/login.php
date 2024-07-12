@@ -8,8 +8,11 @@ class Login extends Controller
 				$this->view('login/index', ['returnUrl' => $returnUrl]);
 		}
 
-		public function verify(){
-				// session_start(); //declared in init.php
+		public function verify()
+		{
+				if (session_status() == PHP_SESSION_NONE) {
+						session_start();
+				}
 
 				$username = $_POST['username'];
 				$password = $_POST['password'];
@@ -19,16 +22,16 @@ class Login extends Controller
 				$userAuthenticated = $userModel->authenticate($username, $password);
 
 				if ($userAuthenticated) {
-						$_SESSION['user_id'] = $userAuthenticated['id']; // Set user_id from authenticated user data
-						error_log('Debugging message: User logged in with ID ' . $_SESSION['user_id']);
-						error_log('Debugging message: Session ID ' . session_id());
+						$_SESSION['user_id'] = $userAuthenticated['id'];
+						$_SESSION['username'] = $userAuthenticated['username'];
+						error_log('User logged in: ' . $_SESSION['user_id']); // Debugging line
 						header('Location: ' . $returnUrl);
 						exit();
 				} else {
 						$_SESSION['error'] = "Invalid credentials.";
-						error_log('Debugging message: Authentication failed for username ' . $username);
 						header('Location: /login?returnUrl=' . urlencode($returnUrl));
 						exit();
 				}
 		}
 }
+?>
