@@ -1,9 +1,8 @@
 <?php require_once 'app/views/templates/headerPublic.php'; ?>
 <div class="container">
     <div class="jumbotron text-center">
-        <h1 class="display-4">Welcome to SH Movies</h1>
-        <p class="lead">With SH you can search over 20,000 movies, rate them, and generate AI reviews. What are you waiting for?</p>
-        <a class="btn btn-primary btn-lg" href="/login" role="button">Sign In</a>
+        <h1 class="display-4">Welcome to SHDb Movies</h1>
+        <p class="lead">With SHDb you can search over 20,000 movies, rate them, and generate AI reviews. What are you waiting for?</p>
         <a class="btn btn-secondary btn-lg" href="/create" role="button">Sign Up</a>
     </div>
 
@@ -28,7 +27,6 @@
         </div>
     </div>
 
-    
 </div>
-</body>
-</html>
+
+<?php require_once 'app/views/templates/footer.php'; ?>
