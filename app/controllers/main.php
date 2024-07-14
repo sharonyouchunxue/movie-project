@@ -11,8 +11,9 @@ class Main extends Controller
     }
 
     public function index() {
-        $titles = ["Despicable Me 4", "Touch", "It Ends With Us", "House of the Dragon", "The Garfield Movie", "Kingdom of the Planet of the Apes", "The Wild Robot", "Inside Out 2"]; 
-        $movies = $this->apiModel->fetchMultipleMovies($titles);
-        $this->view('main/index', ['movies' => $movies]);
+        // $titles = ["Despicable Me 4", "Touch", "It Ends With Us", "House of the Dragon", "The Garfield Movie", "Kingdom of the Planet of the Apes", "The Wild Robot", "Inside Out 2"]; 
+        // $movies = $this->apiModel->fetchMultipleMovies($titles);
+        // $this->view('main/index', ['movies' => $movies]);
+        $this->view('main/index');
     }
 }

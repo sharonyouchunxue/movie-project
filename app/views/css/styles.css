@@ -1,59 +1,32 @@
-body {
-    background-color: #f8f9fa;
-    color: #343a40;
-}
-
-.movie-poster {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.ratings h3 {
-    font-size: 1.5em;
-}
-
-.rating-source {
-    font-size: 1.2em;
-}
-
-.rating-source i {
-    color: gold;
-    margin-right: 5px;
-}
-
-.cast img {
-    border-radius: 50%;
-}
-
-.cast-name {
-    color: #343a40;
-    font-size: 1em;
-}
-
-.footer {
-    background-color: #343a40;
+.header {
+    background: url('/app/images/filmstrip-91434_1280.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
     color: white;
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
-.footer p {
-    margin: 0;
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
-
-.footer a {
-    color: #007bff;
-    text-decoration: none;
+.header p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
 }
-
-.footer a:hover {
-    text-decoration: underline;
+.header .btn {
+    font-size: 1.25rem;
 }
-
-.nav-tabs .nav-link {
-    color: #343a40;
+.features {
+    padding: 50px 0;
 }
-
-.nav-tabs .nav-link.active {
-    background-color: #007bff;
-    color: white;
+.features h3 {
+    margin-bottom: 30px;
+}
+.features .feature {
+    text-align: center;
+    padding: 20px;
 }
