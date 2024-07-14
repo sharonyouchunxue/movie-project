@@ -106,8 +106,6 @@ if (isset($_SESSION['user_id'])) {
                     </div>
                 <?php endif; ?>
             </div>
-
-
         </div>
     </div>
     <div class="mt-4">
