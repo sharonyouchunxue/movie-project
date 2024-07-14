@@ -2029,3 +2029,135 @@ In conclusion, "Barbie" is a triumph on all fronts. It is a film that will ignit
 [14-Jul-2024 20:38:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
 [14-Jul-2024 20:38:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
 [14-Jul-2024 20:39:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:44:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:46:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:46:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:47:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:48:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:48:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:48:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:48:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:49:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:49:08 UTC] Session user_id: not set
+[14-Jul-2024 20:49:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:49:24 UTC] Raw API Response: {
+  "candidates": [
+    {
+      "finishReason": "SAFETY",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "MEDIUM"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 12,
+    "totalTokenCount": 12
+  }
+}
+
+[14-Jul-2024 20:49:24 UTC] Session user_id: not set
+[14-Jul-2024 20:49:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:49:35 UTC] Raw API Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**It Ends with Us: A Heartbreaking and Unforgettable Journey**\n\nLily Collins and Justin Baldoni star in \"It Ends with Us,\" a poignant and emotionally charged film that will leave an enduring impact. Based on the bestselling novel by Colleen Hoover, this movie delves into the complexities of love, abuse, and the search for redemption.\n\n**A Haunting Storyline**\n\nLily Collins portrays Lily Bloom, a young woman struggling to come to terms with her past. Haunted by her abusive ex-boyfriend, Ryle Kincaid (Justin Baldoni), she attempts to build a new life with handsome neurosurgeon, Atlas Corrigan (Charlie Weber). However, as the lines between her past and present blur, Lily must confront her own demons and decide which path she ultimately wants to take.\n\n**Excellent Performances**\n\nCollins gives a tour-de-force performance as Lily, capturing the character's fragility, resilience, and vulnerability. Her on-screen chemistry with Baldoni is electrifying, making their love-hate relationship both believable and heartbreaking. Weber brings a quiet strength and sensitivity to the role of Atlas, providing a much-needed sanctuary for Lily amidst the chaos.\n\n**Thought-Provoking Themes**\n\n\"It Ends with Us\" fearlessly tackles difficult and important themes such as domestic violence, trauma, and forgiveness. The film doesn't shy away from showing the devastating effects of abuse, both physically and emotionally. It also explores the challenges of leaving an abusive relationship and the complexities of healing and moving forward.\n\n**Emotional Roller Coaster**\n\nPrepare yourself for an emotional rollercoaster as \"It Ends with Us\" takes you through Lily's journey. You'll laugh, cry, and feel your heartstrings tugged at every turn. The film's pacing is deliberate, allowing you to fully absorb the characters' experiences and emotions.\n\n**Memorable and Impactful**\n\n\"It Ends with Us\" is a movie that will stay with you long after the credits roll. It's a testament to the power of true love and the strength of the human spirit. It's a film that will make you question your own relationships and inspire you to seek out healthy and fulfilling ones.\n\n**Overall**\n\n\"It Ends with Us\" is a must-see for anyone looking for a deeply moving and thought-provoking cinematic experience. Its incredible performances, haunting storyline, and important themes will resonate with viewers of all ages. This film will not only entertain but also stay with you, leaving you forever changed."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "LOW"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 12,
+    "candidatesTokenCount": 513,
+    "totalTokenCount": 525
+  }
+}
+
+[14-Jul-2024 20:49:35 UTC] Session user_id: not set
+[14-Jul-2024 20:50:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:50:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:53:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:57:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:57:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:57:23 UTC] Session user_id: not set
+[14-Jul-2024 20:57:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:57:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:57:48 UTC] Session user_id: not set
+[14-Jul-2024 20:57:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:07 UTC] User logged in: 5
+[14-Jul-2024 20:58:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:07 UTC] Session user_id: 5
+[14-Jul-2024 20:58:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:13 UTC] Session user_id: 5
+[14-Jul-2024 20:58:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 20:58:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:39:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:39:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:40:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:40:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:40:57 UTC] Session user_id: not set
+[14-Jul-2024 21:41:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:41:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:41:06 UTC] Session user_id: not set
+[14-Jul-2024 21:41:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:44:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:44:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:45:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:45:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:45:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:46:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:52:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:52:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
+[14-Jul-2024 21:52:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/runner/movie-project/app/core/App.php on line 10
