@@ -16,13 +16,15 @@
             <?php if (isset($movies) && count($movies) > 0): ?>
                 <?php foreach ($movies as $movie): ?>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="<?php echo htmlspecialchars($movie['Poster']); ?>" class="card-img-top" alt="Movie Image">
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo htmlspecialchars($movie['Title']); ?></h5>
-                                <p class="card-text"><?php echo htmlspecialchars($movie['Genre']); ?></p>
+                        <a href="/movie/search?movie=<?php echo urlencode($movie['Title']); ?>" class="text-decoration-none">
+                            <div class="card">
+                                <img src="<?php echo htmlspecialchars($movie['Poster']); ?>" class="card-img-top" alt="Movie Image">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php echo htmlspecialchars($movie['Title']); ?></h5>
+                                    <p class="card-text"><?php echo htmlspecialchars($movie['Genre']); ?></p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <?php endforeach; ?>
             <?php else: ?>
