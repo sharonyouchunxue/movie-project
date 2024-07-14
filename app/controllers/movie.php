@@ -79,4 +79,24 @@ class Movie extends Controller {
            exit();
        }
 
+    public function review() {
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $movie_title = $_POST['title'];
+
+            try {
+                $api = $this->apiModel;
+                $movie = $api->fetchMovieData($movie_title);
+                $review = $api->fetchReview($movie_title);
+                $this->view('movie/results', ['movie' => $movie, 'review' => $review]);
+            } catch (Exception $e) {
+                $this->view('movie/results', ['error' => $e->getMessage()]);
+            }
+        }
+    }
+
+
 }

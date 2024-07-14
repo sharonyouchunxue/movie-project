@@ -1,10 +1,9 @@
 <?php
 
 class App {
-
-    protected $controller = 'main';
+    protected $controller = 'main'; // Default controller
     protected $method = 'index';
-    protected $special_url = ['apply'];
+    protected $special_url = ['apply', 'review'];
     protected $params = [];
 
     public function __construct() {
@@ -22,13 +21,14 @@ class App {
         } else if (isset($url[1]) && file_exists('app/views/' . $url[1] . '.php')) {
             require_once 'app/views/' . $url[1] . '.php';
             exit;
+        } else if (empty($url[1])) {
+            $this->controller = 'main';
         } else {
             header('Location: /main');
             die;
         }
 
         require_once 'app/controllers/' . $this->controller . '.php';
-
         $this->controller = new $this->controller;
 
         if (isset($url[2])) {

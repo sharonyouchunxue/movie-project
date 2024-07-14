@@ -95,7 +95,19 @@ if (isset($_SESSION['user_id'])) {
                     <input type="hidden" name="title" value="<?php echo htmlspecialchars($movie['Title']); ?>">
                     <button type="submit" class="btn btn-success">Get Review</button>
                 </form>
+                <?php if (isset($review)): ?>
+                    <div class="review mt-3">
+                        <h3>Review for <?php echo htmlspecialchars($movie['Title']); ?>:</h3>
+                        <p><?php echo htmlspecialchars($review); ?></p>
+                    </div>
+                <?php elseif (isset($error)): ?>
+                    <div class="alert alert-danger mt-3">
+                        <?php echo htmlspecialchars($error); ?>
+                    </div>
+                <?php endif; ?>
             </div>
+
+
         </div>
     </div>
     <div class="mt-4">
