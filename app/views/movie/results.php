@@ -33,15 +33,15 @@ function generateStarRating($rating) {
     $starsHtml = '';
 
     for ($i = 0; $i < $fullStars; $i++) {
-        $starsHtml .= '<i class="fas fa-star"></i> ';
+        $starsHtml .= '<i class="fas fa-star star-color"></i> ';
     }
 
     if ($halfStar) {
-        $starsHtml .= '<i class="fas fa-star-half-alt"></i> ';
+        $starsHtml .= '<i class="fas fa-star-half-alt star-color"></i> ';
     }
 
     for ($i = 0; $i < $emptyStars; $i++) {
-        $starsHtml .= '<i class="far fa-star"></i> ';
+        $starsHtml .= '<i class="far fa-star star-color"></i> ';
     }
 
     return $starsHtml;
