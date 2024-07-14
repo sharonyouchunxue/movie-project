@@ -66,11 +66,11 @@ function generateStarRating($rating) {
                 <?php foreach ($movie['Ratings'] as $rating): ?>
                     <span>
                         <?php if ($rating->Source == "Internet Movie Database"): ?>
-                            <i class="fas fa-star"></i> IMDb: <?php echo htmlspecialchars($rating->Value); ?>
+                            <img src="../app/images/imdb_icon.png" alt="IMDb" style="width:20px;height:20px;"> IMDb: <?php echo htmlspecialchars($rating->Value); ?>
                         <?php elseif ($rating->Source == "Rotten Tomatoes"): ?>
-                            <i class="fas fa-tomato"></i> Rotten Tomatoes: <?php echo htmlspecialchars($rating->Value); ?>
+                            <img src="../app/images/rotten-tomatoes.jpg" alt="Rotten Tomatoes" style="width:20px;height:20px;"> Rotten Tomatoes: <?php echo htmlspecialchars($rating->Value); ?>
                         <?php elseif ($rating->Source == "Metacritic"): ?>
-                            <i class="fas fa-metacritic"></i> Metacritic: <?php echo htmlspecialchars($rating->Value); ?>
+                            <img src="../app/images/Metacritic.png" alt="Metacritic" style="width:20px;height:20px;"> Metacritic: <?php echo htmlspecialchars($rating->Value); ?>
                         <?php else: ?>
                             <?php echo htmlspecialchars($rating->Source); ?>: <?php echo htmlspecialchars($rating->Value); ?>
                         <?php endif; ?>
@@ -174,10 +174,4 @@ function generateStarRating($rating) {
 
 <!-- Include Bootstrap JS for Toast functionality -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // Initialize the toast
-        $('.toast').toast('show');
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs
