@@ -1,8 +1,4 @@
 <?php
-// Ensure session is started
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
 
 if (isset($_SESSION['user_id'])) {
     require_once 'app/views/templates/header.php'; // Private header
@@ -28,7 +24,30 @@ if (isset($_SESSION['user_id'])) {
     $statement->execute();
     $userHasRated = $statement->fetch(PDO::FETCH_ASSOC);
 }
+
+function generateStarRating($rating) {
+    $fullStars = floor($rating);
+    $halfStar = $rating - $fullStars >= 0.5 ? true : false;
+    $emptyStars = 5 - $fullStars - ($halfStar ? 1 : 0);
+
+    $starsHtml = '';
+
+    for ($i = 0; $i < $fullStars; $i++) {
+        $starsHtml .= '<i class="fas fa-star"></i> ';
+    }
+
+    if ($halfStar) {
+        $starsHtml .= '<i class="fas fa-star-half-alt"></i> ';
+    }
+
+    for ($i = 0; $i < $emptyStars; $i++) {
+        $starsHtml .= '<i class="far fa-star"></i> ';
+    }
+
+    return $starsHtml;
+}
 ?>
+
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-4">
@@ -59,7 +78,11 @@ if (isset($_SESSION['user_id'])) {
                 <?php endforeach; ?>
 
                 <?php if ($ratingData['total_ratings'] > 0): ?>
-                    <p><strong>Average User Rating:</strong> <?php echo round($ratingData['average_rating'], 1); ?>/5 (<?php echo $ratingData['total_ratings']; ?> ratings)</p>
+                    <div class="star-rating">
+                        <?php echo generateStarRating(round($ratingData['average_rating'], 1)); ?>
+                        <span><?php echo round($ratingData['average_rating'], 1); ?>/5</span>
+                        <p><?php echo $ratingData['total_ratings']; ?> ratings</p>
+                    </div>
                 <?php else: ?>
                     <p><strong>Average User Rating:</strong> No ratings yet.</p>
                 <?php endif; ?>
@@ -150,9 +173,8 @@ if (isset($_SESSION['user_id'])) {
 <?php require_once 'app/views/templates/footer.php'; ?>
 
 <!-- Include Bootstrap JS for Toast functionality -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function() {
         // Initialize the toast
