@@ -28,7 +28,7 @@ if (isset($_SESSION['user_id'])) {
 
 <?php require_once 'app/views/templates/footer.php'; ?>
 
-<!-- Add the script for the read more functionality -->
+<!-- script for the read more functionality -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var readMore = document.getElementById('read-more');
