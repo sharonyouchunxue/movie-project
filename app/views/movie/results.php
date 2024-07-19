@@ -46,6 +46,11 @@ function generateStarRating($rating) {
 
     return $starsHtml;
 }
+
+function formatReview($review) {
+    // Use nl2br to convert newlines to <br> tags
+    return nl2br($review);
+}
 ?>
 
 <div class="container mt-4">
@@ -119,9 +124,18 @@ function generateStarRating($rating) {
                     <button type="submit" class="btn btn-success">Get Review</button>
                 </form>
                 <?php if (isset($review)): ?>
-                    <div class="review mt-3">
+                    <div class="review-container mt-3">
                         <h3>Review for <?php echo htmlspecialchars($movie['Title']); ?>:</h3>
-                        <p><?php echo htmlspecialchars($review); ?></p>
+                        <div class="review-content">
+                            <?php echo formatReview($review); ?>
+                        </div>
+                    </div>
+                <?php elseif (isset($movie['ai_review'])): ?>
+                    <div class="review-container mt-3">
+                        <h3>Review for <?php echo htmlspecialchars($movie['Title']); ?>:</h3>
+                        <div class="review-content">
+                            <?php echo formatReview($movie['ai_review']); ?>
+                        </div>
                     </div>
                 <?php elseif (isset($error)): ?>
                     <div class="alert alert-danger mt-3">
@@ -165,7 +179,7 @@ function generateStarRating($rating) {
 <script>
     $(document).ready(function() {
         // Initialize the toast
-        $('.toast').toast({ delay: 3000 }); // Set the delay to 3 seconds
+        $('.toast').toast({ delay: 3000 }); 
         $('.toast').toast('show');
     });
 </script>
