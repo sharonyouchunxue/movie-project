@@ -38,9 +38,6 @@ if (session_status() == PHP_SESSION_NONE) {
         <ul class="navbar-nav ml-auto">
             <?php if (isset($_SESSION['user_id'])): ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="/profile">Profile</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="/settings">Settings</a>
                 </li>
                 <li class="nav-item">
