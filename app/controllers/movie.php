@@ -31,7 +31,7 @@ class Movie extends Controller {
         }
     }
 
-       public function rate(){
+       public function rate() {
            // Ensure session is started
            if (session_status() == PHP_SESSION_NONE) {
                session_start();
@@ -78,6 +78,7 @@ class Movie extends Controller {
            header('Location: ' . $_SERVER['HTTP_REFERER']);
            exit();
        }
+
 
     public function review() {
         if (session_status() == PHP_SESSION_NONE) {
