@@ -31,16 +31,6 @@ if (session_status() == PHP_SESSION_NONE) {
             <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Categories
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/category/action">Action</a>
-                    <a class="dropdown-item" href="/category/comedy">Comedy</a>
-                    <a class="dropdown-item" href="/category/drama">Drama</a>
-                </div>
-            </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 ml-auto" method="GET" action="/movie/search">
             <input class="form-control mr-sm-2" type="search" placeholder="Search for a movie..." aria-label="Search" name="movie">
@@ -48,12 +38,6 @@ if (session_status() == PHP_SESSION_NONE) {
         </form>
         <ul class="navbar-nav ml-auto">
             <?php if (isset($_SESSION['user_id'])): ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="/profile">Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/settings">Settings</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/logout">Logout</a>
                 </li>

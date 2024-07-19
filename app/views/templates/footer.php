@@ -3,11 +3,23 @@
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-12">
-                <p>Contact us at: <a href="mailto:sharonyouchunxue@gmail.ca">sharonyouchunxue@gmail.ca</a></p>
-                <p>Follow us on:
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>,
-                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>,
-                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <p>
+                    Contact us at: 
+                    <a href="mailto:sharonyouchunxue@gmail.ca">
+                        <i class="fas fa-envelope"></i> sharonyouchunxue@gmail.ca
+                    </a>
+                </p>
+                <p>
+                    Follow us on:
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>,
+                    <a href="https://github.com" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>,
+                    <a href="https://linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
                 </p>
                 <p>Copyright &copy; <?php echo date('Y'); ?> COSC 4806 Project. All rights reserved.</p>
             </div>
