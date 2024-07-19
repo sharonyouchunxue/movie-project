@@ -5,8 +5,8 @@ SHDb Movies is a movie rating and review website that allows users to search for
 ## Features
 - Search for a Movie: Use the search bar on the homepage.
 - View Movie Details: Click on a movie from the search results.
-- Rate a Movie: Log in and rate a movie from the movie details page.
-- Generate AI Review: Click the "Get Review" button on the movie details page.
+- Rate a Movie: Log in and rate a movie from the movie results page.
+- Generate AI Review: Click the "Get Review" button on the movie results page.
 - About Page: Visit the About page to learn more about SHDb Movies.
 
 ## Technologies Used
