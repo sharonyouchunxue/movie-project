@@ -131,19 +131,6 @@ function generateStarRating($rating) {
             </div>
         </div>
     </div>
-    <div class="mt-4">
-        <h2>Cast</h2>
-        <div class="row cast">
-            <?php
-                $actors = explode(', ', $movie['Actors']);
-                foreach ($actors as $actor): ?>
-                    <div class="col-md-2 text-center">
-                        <img src="/path_to_actor_images/<?php echo htmlspecialchars($actor); ?>.jpg" class="img-fluid" alt="<?php echo htmlspecialchars($actor); ?>">
-                        <p class="cast-name"><?php echo htmlspecialchars($actor); ?></p>
-                    </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
 </div>
 
 <!-- Toast for displaying messages -->
@@ -174,4 +161,11 @@ function generateStarRating($rating) {
 
 <!-- Include Bootstrap JS for Toast functionality -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Initialize the toast
+        $('.toast').toast({ delay: 3000 }); // Set the delay to 3 seconds
+        $('.toast').toast('show');
+    });
+</script>
