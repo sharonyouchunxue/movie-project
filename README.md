@@ -1,18 +1,25 @@
-# COSC 4806 - movie project 
-- Connect to OMDB
+# COSC 4806 - Movie Project - SHDb Movies
 
-- Allow someone (who doesn’t need to be logged in but it is okay if they are) to search for a movie and display all the relevant information in a nice view
+SHDb Movies is a movie rating and review website that allows users to search for movies, view detailed information, rate movies, and generate AI reviews.
 
-- Allow the user to give a rating
+## Features
+- Search for a Movie: Use the search bar on the homepage.
+- View Movie Details: Click on a movie from the search results.
+- Rate a Movie: Log in and rate a movie from the movie details page.
+- Generate AI Review: Click the "Get Review" button on the movie details page.
+- About Page: Visit the About page to learn more about SHDb Movies.
 
-- Keep track of this in a DB
+## Technologies Used
+- PHP
+- MariaDB
+- HTML/CSS
+- Bootstrap
+- JavaScript (jQuery)
+- OMDB API
+- Google Gemini API
 
-- Display ratings to users (4/5 for example)
-
-- Allow the users to “get a review”
-
-- This review should be AI-generated
-
-- https://aistudio.google.com/app/apikey
-
-- https://ai.google.dev/gemini-api/docs/get-started/rest 
+## Setup and Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sharonyouchunxue/movie-project.git
+   cd movie-project
