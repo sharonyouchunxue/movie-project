@@ -14,6 +14,7 @@ SHDb Movies is a movie rating and review website that allows users to search for
 - MariaDB
 - HTML/CSS
 - Bootstrap
+- Fontawsome
 - JavaScript (jQuery)
 - OMDB API
 - Google Gemini API
